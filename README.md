@@ -42,12 +42,19 @@ For 2020, the model predicts a record number of fires for the San Francisco area
 - For the prediciton of the wildfire size the imbalance of the size of recorded wildfires is challenging. 
 
 718101 A (- 0.25 acres)
+
 606186 B (0.26 - 9.9 acres) 
+
 64670  C (10 - 99.9 acres)   
+
 13231  D (100 - 299 acres)   
+
 6465   E (300 - 999 acres)  
+
 4400   F (1000 - 4999 acres)
+
 2696   G (5000 acres)
+
 
 - Model is still under evaluation and not sophisticated enough for a reliable prediction of fire size.
 
@@ -68,4 +75,5 @@ Find the PDF of my presentation on GitHub: https://github.com/caaarov/finalproje
 - Adding more feature with information about the ecosystem and biodiversity of the hexagons. 
 - Labeling hexagons with high percentage of land covered by (diferent kind of forest).
 - Using NN to find "hidden features" (like regulations of the state in specific time periods to lower the wildfire risk).
+
 ...
