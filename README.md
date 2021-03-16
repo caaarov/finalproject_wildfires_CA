@@ -1,4 +1,5 @@
-# finalproject_wildfires_CA
+# IRONHACK FINAL PROJECT
+# Predicting wildfires in California in a two step approach
 
 The danger for wildfires in California is increasing. Is fire season now a year-round reality?
 
