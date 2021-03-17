@@ -34,6 +34,7 @@ Please find the description of each Jupyter Notebook below:
 - Grid Search for AdaBoostClassifier: Tuning the hyper-parameters of AdaBoostClassifier.
 
 The accuracy of the model in the TEST set is:  0.97
+
 The kappa of the model in the TEST set is:  0.894
 
 For 2020, the model predicts a record number of fires for the San Francisco area. By the end of 2020, 9,639 fires had burned 4,397,809 acres – more than 4% of California's acres of land. For 2020, the model predicts a record number of fires for the area around San Francisco.
