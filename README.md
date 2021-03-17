@@ -2,6 +2,8 @@
 
 The danger for wildfires in California is increasing. Is fire season now a year-round reality?
 
+The danger for wildfires at the West Coast, especially in California is increasing. 
+
 ### (1) DATA MINING | NOAA API Scrapping data.ipynb: Scrapping weather data from NOAA API
 
 - seting up & scrapping data from NOAA API for California, United States of America. Please find documentation for NOAA API here: https://www.ncdc.noaa.gov/cdo-web/webservices/v2. Data is returned as json-format. The request for a chosen climate data per time period is automated and stored as pd.DataFrame for further use by each available weather station (4427 unique station IDs).  
@@ -12,15 +14,15 @@ The danger for wildfires in California is increasing. Is fire season now a year-
 
 -  The H3 libary is used for indexing locations. Please find documentation for H3: Uber’s Hexagonal Hierarchical Spatial Index here: https://eng.uber.com/h3/. 
 
-- Weather stations are clustered per hexagon. For this model the resolution level 4 is chosen. Please find the created interactive map for available weather stations here: 
+- Weather stations are clustered per hexagon. For this model the resolution level 4 is chosen. Please find the created interactive map for available weather stations here: https://github.com/caaarov/finalproject_wildfires_CA/blob/master/files/map_weather%20stations%20CA.html
 
-- Recorded wildfires between 1992-2015 in California are clustered per hexagon. For this model the resolution level 4 and level 5 are chosen. Please find the created interactive map on level 5 for wildfires here: 
+- Recorded wildfires between 1992-2015 in California are clustered per hexagon. For this model the resolution level 4 and level 5 are chosen. Please find the created interactive map on level 5 for wildfires here: https://github.com/caaarov/finalproject_wildfires_CA/blob/master/files/map_wildfires_level%205_CA.html
 
 ### (2.2) DATA PROCESSING | Time Series Analysis with PROPHET.ipynb: Time Series Analysis with PROPHET is documented for the climate data of Temperature | Precipitation | Wind Speed | Evaporation. 
 
 - Please find the documentation for PROPHET here: https://facebook.github.io/prophet/docs/quick_start.html#python-api. The forecast for 2021-2026 is automated and stored as pd.DataFrame for further use. 
 
-### (3.1) MODELLING STEP 1 | Probability of wildfires.ipynb: In this jupyter notebook the deployment of STEP 1 for the model of wildfires prediction is documented.
+### (3.1) MODELING STEP 1 | Probability of wildfires.ipynb: In this jupyter notebook the deployment of STEP 1 for the model of wildfires prediction is documented.
 
 - Data Exploration: Between 1992 – 2015 more then 1.8 million wild fires were recorded.
 - Feature Engineering: Including urban areas, computing climate data of quarter & years
@@ -33,7 +35,7 @@ The kappa of the model in the TEST set is:  0.894
 
 For 2020, the model predicts a record number of fires for the San Francisco area. By the end of 2020, 9,639 fires had burned 4,397,809 acres – more than 4% of California's acres of land.
 
-### (3.2) MODELLING STEP 1 | Predicting wildfire size.ipynb: In this jupyter notebook the deployment of STEP 2 for the model of wildfires prediction is documented. 
+### (3.2) MODELING STEP 1 | Predicting wildfire size.ipynb: In this jupyter notebook the deployment of STEP 2 for the model of wildfires prediction is documented. 
 
 ** **IN PROGRESS** **
 
@@ -66,7 +68,7 @@ In this Jupyter Notebook the data generation for the final project presentation 
 
 In this Jupyter Notebook the data generation for the final project presentation is documented. 
 
-Predicted wildfires between 2016-2020 for ring 2 nearst neighbours of hexagon of San Francisco are summed. For this model the resolution level 4 chosen. Please find the created interactive map on level 4 for wildfires in the Bay Area here: 
+Predicted wildfires between 2016-2020 for ring 2 nearst neighbours of hexagon of San Francisco are summed. For this model the resolution level 4 chosen. Please find the created interactive map on level 4 for wildfires in the Bay Area here: https://github.com/caaarov/finalproject_wildfires_CA/blob/master/files/map_2021-predictions_San%20Francisco%20Area%20.html
 
 Find the PDF of my presentation on GitHub: https://github.com/caaarov/finalproject_wildfires_CA.
 
