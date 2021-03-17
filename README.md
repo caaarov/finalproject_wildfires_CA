@@ -7,7 +7,7 @@ Please find the description of each Jupyter Notebook below:
 #### (1) DATA MINING | NOAA API Scrapping data.ipynb: Scrapping weather data from NOAA API
 
 - Seting up NOAA API for scrapping weather data of California, United States of America.
-- Scrapping data from NOAA API for California, United States of America was done from 1975 (for wind speed and evaporation starting 1985) to 2020.
+- Scrapping data from NOAA API was done from 1975 (for wind speed and evaporation starting 1985) to 2020.
 - Please find documentation for NOAA API here: https://www.ncdc.noaa.gov/cdo-web/webservices/v2. Data is returned as json-format. The request for a chosen climate data per time period is automated and stored as pd.DataFrame for further use by each available weather station (4427 unique station IDs).  
 
 *To use the NOAA API you have to register to get an own token. 
