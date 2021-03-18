@@ -1,6 +1,6 @@
-## IRONHACK FINAL PROJECT: Predicting wildfires in California in a two step approach
+## IRONHACK FINAL PROJECT: Predicting wildfires in California, two step approach
 
-**What is the project all about?** The danger for wildfires at the West Coast, especially in California is increasing. Facing the multiple dimensions of climate change, one may ask: Is fire season now a year-round reality? Therefore, I decided to work on a model predicting the amount and size of wildfires in California in a two step approach. 
+**What is the project all about?** The danger of wildfires on the West Coast, especially in California is increasing. Facing the multiple dimensions of climate change, one may ask: Is fire season now a year-round reality? To answer this question, I decided to work on a model predicting the amount and size of wildfires in California in a two step approach.
 
 Please find the description of each Jupyter Notebook below:
 
